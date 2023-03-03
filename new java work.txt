@@ -1,0 +1,187 @@
+console.log('welcome')
+// document.getElementById('heading').addEventListener
+// ('click',function(e)
+// {
+//     let variable;
+//     console.log('you have clicked the heading');
+//     variable=e.target;
+    
+
+//     variable=e.offsetX;
+//     console.log(variable);
+//     //location.href='//codewithharry.com'
+
+// })
+// let btn =document.getElementById('btn')
+// btn.addEventListener('click',func1);
+// btn.addEventListener('dbleclick',func2);
+// function func1(e)
+// {
+//     console.log("thanks",e);
+//      e.preventDefault();
+// }
+// function func2(e)
+// {
+//     console.log("thanks its doblr",e);
+//      e.preventDefault();
+// }
+// document.querySelector('.container').addEventListener('mousemove',function(e)
+// {
+//     console.log(e.offsetX,e.offsetY);
+//     document.body.style.backgroundColor=`rgb(${e.offsetX},
+//         ${e.offsetX},${e.offsetX + e.offsetX})`;
+//         console.log('youu trig mous eevent')
+
+// })
+// let str="python";
+// let link=document.links;
+// console.log(link)
+
+// let href;
+// Array.from(link).forEach(function(element){
+//     href=element.href;
+//     if(href.includes(str))
+//     {
+//         console.log(href);
+//     }
+    
+// })
+// localStorage.setitem('namo','malil')
+// localStorage.setItem('nameo','ahethm')
+// localStorage.clear()
+// let namp=localStorage.getItem('namo');
+// console.log(namp)
+
+// let div=document.createElement('div')
+// div.innerText('this is text under heading')
+
+// let heading=document.getElementById('heading')
+// heading.appendChild(div)
+
+
+// div.contentEditable='true'
+
+
+
+// div.addEventListener('blur',function()
+// {
+//    localStorage.setItem('name',JSON.stringify(div.textContent))
+// })
+// let div  = document.createElement('DIV');
+// div.innerText = 'Hello, This is Headlines'
+// div.setAttribute("id", "editDiv");
+// div.setAttribute("contenteditable", "true");
+// document.body.insertBefore(div, DomManipulate); 
+
+// document.getElementById('editDiv').addEventListener("input", function() {
+//     localStorage.setItem("Content", div.innerText);
+//     console.log(div,contentEditable)
+// });
+
+// let obj =
+// {
+//     name:"ahtesham",
+//     class:"code wiyj"
+
+// }
+// // console.log(obj)
+// function obj1(givename)
+// {
+//     this.name=givename;
+// }
+// obj1.prototype.getname=function()
+// {
+//     return this.name;
+// }
+// let obj2=new obj1("wali");
+// console.log(obj2);
+// class employee{
+//     constructor(name,exp,div)
+//     {
+//         this.name=name;
+//         this.exp=exp;
+//         this.div=div;
+//     } 
+//     slogan()
+//     {
+//         return `i am ${this.name} and this ois best com`;
+//     }
+//     static add(a,b)
+//     {
+//         return a+b;
+//     }
+// }
+// class programmer extends employee{
+//     constructor(name,exp,div,language)
+//     {
+//         super(name,exp,div)
+//         this.language=language;
+        
+//     }
+//     favlang()
+//     {
+//         if(this.language=='java')
+//         {
+//             return 'java';
+//         }
+//         else
+//         {
+//             return 'css'
+//         }
+//     }
+// }
+// // malik=new employee("wasif",56,"sscgroup")
+// // console.log(malik)
+// // console.log(employee.add(2,4))
+// malik=new programmer("ali",67,"lay","java");
+
+// console.log(malik);
+// console.log(malik.favlang());
+// class Library {
+//     constructor(booklist) {
+//       this.booklist = booklist;
+//     }
+//     getBookList() {
+//       return `THE LIST OF BOOKS: ${this.booklist}`;
+//     }
+//     issueBook(bookname, user) {
+//       return `${bookname} is issued to ${user}`;
+//     }
+//     returnBook(bookname, user) {
+//       return `${bookname} was returned back from ${user}`;
+//     }
+//   }
+  
+//   let lib = new Library(
+//     'jamesbond,harrypotter,The Lord of the Rings,The Great Gatsby'
+//   );
+  
+//   console.log(lib);
+//   console.log(lib.getBookList());
+//   console.log(lib.issueBook('The Great Gatsby', 'lisa'));
+//   console.log(lib.returnBook('The Great Gatsby', 'lisa'));
+// class Library{
+//     constructor(booklist)
+//     {
+//         this.booklist=booklist;
+//     }
+//     getbooklist()
+//     {
+//         return `the list of is ${this.booklist}`;
+//     }
+//     issuebook(username,bookname)
+//     {
+//         return `${bookname} is issue to ${username}`;
+
+//     }
+//     returnbook(username,bookname)
+//     {
+//         return `${bookname} is return from ${username}`;
+//     }
+// }
+// let lib=new Library('awe,rt,yy,uu,ii');
+// console.log(lib);
+// console.log(lib.getbooklist());
+// console.log(lib.issuebook('atesjam','awe'));
+// console.log(lib.returnbook('atesjam','awe'));
+
